@@ -1,16 +1,20 @@
-import React from 'react'
-import Navbar from './components/Navbar'
-import HomeCards from './components/HomeCards'
-import Hero from './components/Hero'
+import React from "react";
+import Navbar from "./components/Navbar";
+import HomeCards from "./components/HomeCards";
+import Hero from "./components/Hero";
+import JobListings from "./components/JobListings";
+import ViewAllJobs from "./components/ViewAllJobs";
 
 const App = () => {
   return (
     <>
       <Navbar />
       <Hero />
-      <HomeCards  />
+      <HomeCards />
+      <JobListings />
+      <ViewAllJobs />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
