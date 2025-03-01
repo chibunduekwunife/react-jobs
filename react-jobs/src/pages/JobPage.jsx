@@ -3,6 +3,7 @@ import { useParams, useLoaderData } from "react-router-dom";
 import { FaArrowLeft, FaMapMarker } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+import { toast } from 'react-toastify'
 
 const JobPage = ({ deleteJob }) => {
   const { id } = useParams();
@@ -16,7 +17,10 @@ const JobPage = ({ deleteJob }) => {
 
     deleteJob(JobId);
 
+    toast.success("Job deleted successfully");
+
     navigate("/jobs");
+
   };
 
   return (

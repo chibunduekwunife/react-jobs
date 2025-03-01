@@ -2,11 +2,11 @@
   "jobs": [
     {
       "id": "1",
-      "title": "Senior React Developer",
+      "title": "Senior React Dev",
       "type": "Full-Time",
-      "description": "We are seeking a talented Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as React or Angular.",
       "location": "Boston, MA",
-      "salary": "$70K - $80K",
+      "description": "We are seeking a talented Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as React or Angular.",
+      "salary": "$100K - 125K",
       "company": {
         "name": "NewTek Solutions",
         "description": "NewTek Solutions is a leading technology company specializing in web development and digital solutions. We pride ourselves on delivering high-quality products and services to our clients while fostering a collaborative and innovative work environment.",
@@ -85,17 +85,17 @@
       }
     },
     {
-      "id": "b81d",
-      "title": "Test Job 1",
-      "type": "Remote",
-      "location": "Oakville ON",
-      "description": "This is Just a test!",
-      "salary": "Over $200K",
+      "id": "4a63",
+      "title": "Summer Internship 2025 - React Developer",
+      "type": "Internship",
+      "location": "London, Birmingham",
+      "description": "Looking for aspiring, talented students to work for our company, gain relevant experience, and grow in the tech field.",
+      "salary": "Under $50K",
       "company": {
-        "name": "Testing Company",
-        "description": "We like to test stuff",
-        "contactEmail": "testcompany@testers.com",
-        "contactPhone": "444-444-4444"
+        "name": "PoshTech",
+        "description": "We offer Front-End development services to clients all over the globe! Join us today at poshtech@posh.com",
+        "contactEmail": "poshtech@posh.com",
+        "contactPhone": "549-353-3680"
       }
     }
   ]
